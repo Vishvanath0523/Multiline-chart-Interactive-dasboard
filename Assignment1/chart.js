@@ -1,4 +1,4 @@
-const url = "";
+const url = "https://raw.githubusercontent.com/Vishvanath0523/MAJOR-ASSIGNMENT---1/refs/heads/main/data_sample.csv";
 
         d3.csv(url).then(data => {
             const table_data = data.map(d => ({
